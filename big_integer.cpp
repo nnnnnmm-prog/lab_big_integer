@@ -335,6 +335,9 @@ string BigInteger::to_string() const {
     if (is_zero()) return "0";
 
     string s;              
+
+
+    
     if (negative_) s = "-";
 
     for (int i = (int)digits_.size() - 1; i >= 0; i--) {
