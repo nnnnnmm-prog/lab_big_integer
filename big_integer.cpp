@@ -331,7 +331,7 @@ BigInteger BigInteger::operator--(int) {
 }
 
 
-string BigInteger::to_string() const {
+string BigInteger::to_string() const {  
     if (is_zero()) return "0";
 
     string s;
